@@ -1,7 +1,4 @@
-package Exam_241212_객체지향_학원관리프로그램.domain.main;
-
-import Exam_241212_객체지향_학원관리프로그램.domain.*;
-import Exam_241212_객체지향_학원관리프로그램.domain.manager.Academy;
+package main;
 
 public class Student {
 // field area
@@ -9,7 +6,7 @@ public class Student {
     private String studentName;
     private int studentAge;
     private String  studentPhoneNumber;
-    private Course [] currentCourseList;
+    private Course[] currentCourseList;
     private int totalPrice;
     private static int studentIdCounter; // 수강생 아이디 자동 생성을 위한 카운터
 //     =================
@@ -54,7 +51,7 @@ public Student(String studentId, String studentName, int studentAge, String stud
         return this.studentPhoneNumber;
     }
 
-    public Course [] getCurrentCourseList(){
+    public Course[] getCurrentCourseList(){
         return currentCourseList;
     }
 

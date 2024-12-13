@@ -1,4 +1,4 @@
-package Exam_241212_객체지향_학원관리프로그램.domain.main;
+package main;
 
 public class Course {
     //field area

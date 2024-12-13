@@ -1,12 +1,12 @@
-package Exam_241212_객체지향_학원관리프로그램.domain.manager;
+package manager;
 
-import Exam_241212_객체지향_학원관리프로그램.domain.main.Course;
-import Exam_241212_객체지향_학원관리프로그램.domain.main.Student;
+import main.Course;
+import main.Student;
 
 public class Academy {
 
 //    field area
-    private Course [] courseList = new Course[5]; // 강좌목록
+    private Course[] courseList = new Course[5]; // 강좌목록
     private Student[] studentsList = new Student[5]; // 수강생목록
     private int totalPrice; // 총 가격
     private int courseCount; // 강좌의 개수
