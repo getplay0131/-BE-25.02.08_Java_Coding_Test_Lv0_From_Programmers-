@@ -172,8 +172,8 @@ boolean isCurrentCourseCheck = false;
 // - 학생의 총 수강료 업데이트
     for (int i = 0; i < courseList.length; i++) {
         if (courseList[i] == null) {
-            studentsList[i].getCurrentCourseList()[i] = newCourse(CourseName,courseList[i].getCoursePrice(),
-                    courseList[i].getMaxCourseStudent(),courseList[i].getCourseDay(),courseList[i].getCourseTime());
+//            studentsList[i].getCurrentCourseList()[i] = newCourse(CourseName,courseList[i].getCoursePrice(),
+//                    courseList[i].getMaxCourseStudent(),courseList[i].getCourseDay(),courseList[i].getCourseTime());
 //            이런거 같은데...
         }
     }
