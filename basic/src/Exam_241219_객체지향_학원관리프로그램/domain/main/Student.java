@@ -5,14 +5,14 @@ public class Student {
     private String studentId;
     private String studentName;
     private int studentAge;
-    private String  studentPhoneNumber;
-    private Course [] currentCourseList;
+    private String studentPhoneNumber;
+    private Course[] currentCourseList;
     private int totalPrice;
     private static int studentIdCounter; // 수강생 아이디 자동 생성을 위한 카운터
 //     =================
 
     //    constructor area
-    public Student(String studentId, String studentName, int studentAge, String studentPhoneNumber, int totalPrice){
+    public Student(String studentId, String studentName, int studentAge, String studentPhoneNumber, int totalPrice) {
         this(studentId,
                 studentName,
                 studentAge,
@@ -22,7 +22,7 @@ public class Student {
     }
 
     public Student(String studentId, String studentName, int studentAge, String studentPhoneNumber,
-                   Course[] currentCourseList, int totalPrice){
+                   Course[] currentCourseList, int totalPrice) {
         this.studentId = studentId;
         this.studentName = studentName;
         this.studentAge = studentAge;
@@ -35,27 +35,28 @@ public class Student {
 
     //    method area
 //    getter 메서드 사용하기
-    public String getStudentId(){
+    public String getStudentId() {
         return this.studentId;
     }
 
-    public String getStudentName(){
+    public String getStudentName() {
         return this.studentName;
     }
 
-    public int getStudentAge(){
+    public int getStudentAge() {
         return this.studentAge;
     }
 
-    public String getStudentPhoneNumber(){
+    public String getStudentPhoneNumber() {
         return this.studentPhoneNumber;
     }
 
-    public Course [] getCurrentCourseList(){
+    public Course[] getCurrentCourseList() {
         return currentCourseList;
     }
+
     // =================24.12.17 단순한 총 가격 가져오는 메서드 생성
-    public int getTotalPrice(){
+    public int getTotalPrice() {
         return this.totalPrice;
     }
 
@@ -67,19 +68,20 @@ public class Student {
         return studentId;
     }
 
-    public void setStudentName(String studentName){
+    public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
-    public void setStudentAge(int studentAge){
+
+    public void setStudentAge(int studentAge) {
         this.studentAge = studentAge;
     }
 
-    public void setStudentPhoneNumber(String studentPhoneNumber){
+    public void setStudentPhoneNumber(String studentPhoneNumber) {
         this.studentPhoneNumber = studentPhoneNumber;
     }
 
     // ================= 24.12.17
-    public boolean addCourse(Course course){
+    public boolean addCourse(Course course) {
 //값 검증
         if (course == null) {
             System.out.println("입력 값을 확인해 주세요!");
@@ -96,8 +98,9 @@ public class Student {
         }
         return false;
     }
+
     // ================= 24.12.17
-    public boolean removeCourse(Course course){
+    public boolean removeCourse(Course course) {
         if (course == null) {
             return false;
         }
@@ -107,21 +110,20 @@ public class Student {
             if (currentCourseList[i] != null && currentCourseList[i].getCourseId().equals(course.getCourseId())) {
                 totalPrice -= course.getCoursePrice();
                 currentCourseList[i] = null;
-        }
+            }
             for (int j = i; j < currentCourseList.length - 1; j++) {
-                currentCourseList[j] = currentCourseList[j+1];
+                currentCourseList[j] = currentCourseList[j + 1];
             }
-            currentCourseList[currentCourseList.length-1] = null;
+            currentCourseList[currentCourseList.length - 1] = null;
             return true;
-            }
+        }
         return false;
     }
 
 
-
 // =================24.12.17 메소드명 수정
 
-    public int calculateTotalPrice(){
+    public int calculateTotalPrice() {
         int totalCoursePrice = 0;
         for (Course current : currentCourseList) {
             if (current != null) {
@@ -135,7 +137,7 @@ public class Student {
 
     //    학생 정보 출력
 //    학생의 이름을 입력 받고 해당 학생의 이름을 가진 정보를 출력한다.
-    public void printStudentInfo(){
+    public void printStudentInfo() {
         boolean hasAnyCourse = false;
         System.out.println("===== 학생 정보 =====");
         System.out.println("학생 ID : " + getStudentId());

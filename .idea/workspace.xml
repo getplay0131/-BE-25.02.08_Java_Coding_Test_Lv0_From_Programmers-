@@ -59,7 +59,13 @@
     "Application.AcademyMain.executor": "Run",
     "Application.AccountMain.executor": "Run",
     "Application.Check_variable_value.executor": "Run",
+    "Application.ConstantMain1.executor": "Run",
+    "Application.ConstantMain2.executor": "Run",
     "Application.Exam_241219_객체지향_학원관리프로그램.domain.AcademyMain.executor": "Run",
+    "Application.FinalFieldMain.executor": "Run",
+    "Application.FinalLocalMain.executor": "Run",
+    "Application.FinalRefMain.executor": "Run",
+    "Application.MemberMain.executor": "Run",
     "Application.Method1.executor": "Run",
     "Application.Method2.executor": "Run",
     "Application.MethodChange1.executor": "Run",
@@ -68,6 +74,7 @@
     "Application.NullMain1.executor": "Run",
     "Application.NullMain2.executor": "Run",
     "Application.NullMain3.executor": "Run",
+    "Application.Pro_직각삼각형출력하기.executor": "Run",
     "Application.ProducrMain.executor": "Run",
     "Application.RectangleMain.executor": "Run",
     "Application.StudentMain.executor": "Run",
@@ -88,16 +95,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_241220.final1" />
       <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exam_241219_객체지향_학원관리프로그램.domain.AcademyMain">
-    <configuration name="AcademyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_241219_객체지향_학원관리프로그램.domain.main.AcademyMain" />
+  <component name="RunManager" selected="Application.Pro_직각삼각형출력하기">
+    <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.ConstantMain1" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam_241219_객체지향_학원관리프로그램.domain.main.*" />
+          <option name="PATTERN" value="Progress_241220.final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_2411282_241129.AccountMain" />
+    <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.ConstantMain2" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam_2411282_241129.*" />
+          <option name="PATTERN" value="Progress_241220.final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exam_241219_객체지향_학원관리프로그램.domain.AcademyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_241219_객체지향_학원관리프로그램.domain.AcademyMain" />
+    <configuration name="FinalRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.FinalRefMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam_241219_객체지향_학원관리프로그램.domain.*" />
+          <option name="PATTERN" value="Progress_241220.final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducrMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_2411282_241129.ProducrMain" />
+    <configuration name="MemberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.MemberMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam_2411282_241129.*" />
+          <option name="PATTERN" value="Progress_241220.final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_2411282_241129.StudentMain" />
+    <configuration name="Pro_직각삼각형출력하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_241220.Pro_직각삼각형출력하기" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam_2411282_241129.*" />
+          <option name="PATTERN" value="Exam_241220.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exam_241219_객체지향_학원관리프로그램.domain.AcademyMain" />
-        <item itemvalue="Application.AcademyMain" />
-        <item itemvalue="Application.AccountMain" />
-        <item itemvalue="Application.ProducrMain" />
-        <item itemvalue="Application.StudentMain" />
+        <item itemvalue="Application.Pro_직각삼각형출력하기" />
+        <item itemvalue="Application.MemberMain" />
+        <item itemvalue="Application.FinalRefMain" />
+        <item itemvalue="Application.ConstantMain2" />
+        <item itemvalue="Application.ConstantMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +185,36 @@
       <updated>1732149265825</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/Exam_241220/Pro_직각삼각형출력하기.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/Exam_241220/Pro_직각삼각형출력하기.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/Exam_241220/Pro_직각삼각형출력하기.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/Exam_241220/Pro_직각삼각형출력하기.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/Exam_241220/Pro_직각삼각형출력하기.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
