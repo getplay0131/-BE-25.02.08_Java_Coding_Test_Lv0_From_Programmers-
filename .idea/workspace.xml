@@ -58,10 +58,12 @@
   "keyToString": {
     "Application.AcademyMain.executor": "Run",
     "Application.AccountMain.executor": "Run",
+    "Application.CarMain.executor": "Run",
     "Application.Check_variable_value.executor": "Run",
     "Application.ConstantMain1.executor": "Run",
     "Application.ConstantMain2.executor": "Run",
     "Application.Exam_241219_객체지향_학원관리프로그램.domain.AcademyMain.executor": "Run",
+    "Application.ExtendAccessMain.executor": "Run",
     "Application.FinalFieldMain.executor": "Run",
     "Application.FinalLocalMain.executor": "Run",
     "Application.FinalRefMain.executor": "Run",
@@ -76,8 +78,15 @@
     "Application.NullMain3.executor": "Run",
     "Application.Pro_직각삼각형출력하기.executor": "Run",
     "Application.ProducrMain.executor": "Run",
+    "Application.Progress_241223.Exam2.ShopMain.executor": "Run",
+    "Application.Progress_241223.extends1.ex2.CarMain.executor": "Run",
+    "Application.Progress_241223.extends1.ex3.CarMain.executor": "Run",
+    "Application.Progress_241223.extends1.overriding.CarMain.executor": "Run",
     "Application.RectangleMain.executor": "Run",
+    "Application.ShopMain.executor": "Run",
     "Application.StudentMain.executor": "Run",
+    "Application.Super2Main.executor": "Run",
+    "Application.SuperMain.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
     "Application.initMain.executor": "Run",
@@ -86,7 +95,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바",
+    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/basic/src/Progress_241223/extends1/overriding",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -94,18 +103,22 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\[집]자기계발\[집]공부\[집]컴퓨터 공학\[집]웹개발\[집]백엔드\[집][리마인드][자바] 소스 코드\[백] Java\[집][백]인프런 - 김영한의 자바\basic\src\Progress_241223\extends1\overriding" />
+      <recent name="F:\[집]자기계발\[집]공부\[집]컴퓨터 공학\[집]웹개발\[집]백엔드\[집][리마인드][자바] 소스 코드\[백] Java\[집][백]인프런 - 김영한의 자바\basic\src\Progress_241223\extends1\ex3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Progress_241220.final1" />
       <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pro_직각삼각형출력하기">
-    <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.ConstantMain1" />
+  <component name="RunManager" selected="Application.Progress_241223.Exam2.ShopMain">
+    <configuration name="ExtendAccessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241223.extends1.access.ExtendAccessMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241220.final1.*" />
+          <option name="PATTERN" value="Progress_241223.extends1.access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.ConstantMain2" />
+    <configuration name="Progress_241223.Exam2.ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241223.Exam2.ShopMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241220.final1.*" />
+          <option name="PATTERN" value="Progress_241223.Exam2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.FinalRefMain" />
+    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241223.Exam1.ShopMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241220.final1.*" />
+          <option name="PATTERN" value="Progress_241223.Exam1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241220.final1.MemberMain" />
+    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241223.extends1.super2.Super2Main" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241220.final1.*" />
+          <option name="PATTERN" value="Progress_241223.extends1.super2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pro_직각삼각형출력하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_241220.Pro_직각삼각형출력하기" />
+    <configuration name="SuperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241223.extends1.super1.SuperMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam_241220.*" />
+          <option name="PATTERN" value="Progress_241223.extends1.super1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pro_직각삼각형출력하기" />
-        <item itemvalue="Application.MemberMain" />
-        <item itemvalue="Application.FinalRefMain" />
-        <item itemvalue="Application.ConstantMain2" />
-        <item itemvalue="Application.ConstantMain1" />
+        <item itemvalue="Application.Progress_241223.Exam2.ShopMain" />
+        <item itemvalue="Application.ShopMain" />
+        <item itemvalue="Application.Super2Main" />
+        <item itemvalue="Application.SuperMain" />
+        <item itemvalue="Application.ExtendAccessMain" />
       </list>
     </recent_temporary>
   </component>
