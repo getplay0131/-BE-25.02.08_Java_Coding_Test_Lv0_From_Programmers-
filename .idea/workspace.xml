@@ -64,6 +64,8 @@
     "Application.AnimalMain2.executor": "Run",
     "Application.AnimalMain3.executor": "Run",
     "Application.CarMain.executor": "Run",
+    "Application.CarMain0.executor": "Run",
+    "Application.CarMain1.executor": "Run",
     "Application.CastingMain3.executor": "Run",
     "Application.CastingMain4.executor": "Run",
     "Application.CastingMain5.executor": "Debug",
@@ -88,6 +90,9 @@
     "Application.NullMain2.executor": "Run",
     "Application.NullMain3.executor": "Run",
     "Application.OverridingMain.executor": "Run",
+    "Application.PayMain0.executor": "Run",
+    "Application.PayMain1.executor": "Run",
+    "Application.PayMain2.executor": "Run",
     "Application.PolyMain.executor": "Run",
     "Application.Pro_직각삼각형출력하기.executor": "Run",
     "Application.ProducrMain.executor": "Run",
@@ -97,6 +102,7 @@
     "Application.Progress_241223.extends1.overriding.CarMain.executor": "Run",
     "Application.Progress_241230.poly.selfEx1.AnimalMain.executor": "Run",
     "Application.RectangleMain.executor": "Run",
+    "Application.SenderMain.executor": "Run",
     "Application.ShoopngMallMain.executor": "Run",
     "Application.ShopMain.executor": "Run",
     "Application.StudentMain.executor": "Run",
@@ -125,20 +131,20 @@
       <recent name="F:\[집]자기계발\[집]공부\[집]컴퓨터 공학\[집]웹개발\[집]백엔드\[집][리마인드][자바] 소스 코드\[백] Java\[집][백]인프런 - 김영한의 자바\basic\src\Progress_241223\extends1\ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_241231.poly.ex.pay0" />
+      <recent name="Progress_241231.poly.ex.sender" />
+      <recent name="Progress_241231.poly.car1" />
+      <recent name="Progress_241231.poly.car0" />
       <recent name="Progress_241230.poly.ex6" />
-      <recent name="Progress_241230.poly.diamond" />
-      <recent name="Progress_241230.poly.ex5" />
-      <recent name="Progress_241230.poly.ex4" />
-      <recent name="Progress_241230.poly.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalMain">
-    <configuration name="AbstractAnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241230.poly.ex3.AbstractAnimalMain" />
+  <component name="RunManager" selected="Application.PayMain2">
+    <configuration name="CarMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241231.poly.car1.CarMain1" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241230.poly.ex3.*" />
+          <option name="PATTERN" value="Progress_241231.poly.car1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241230.poly.ex6.AnimalMain" />
+    <configuration name="PayMain0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241231.poly.ex.pay0.PayMain0" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241230.poly.ex6.*" />
+          <option name="PATTERN" value="Progress_241231.poly.ex.pay0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241230.poly.diamond.DiamondMain" />
+    <configuration name="PayMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241231.poly.ex.pay0.PayMain1" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241230.poly.diamond.*" />
+          <option name="PATTERN" value="Progress_241231.poly.ex.pay0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241230.poly.ex5.InterfaceMain" />
+    <configuration name="PayMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241231.poly.ex.pay0.PayMain2" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241230.poly.ex5.*" />
+          <option name="PATTERN" value="Progress_241231.poly.ex.pay0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="animalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_241230.poly.ex4.animalMain" />
+    <configuration name="SenderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_241231.poly.ex.sender.SenderMain" />
       <module name="기본" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_241230.poly.ex4.*" />
+          <option name="PATTERN" value="Progress_241231.poly.ex.sender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimalMain" />
-        <item itemvalue="Application.DiamondMain" />
-        <item itemvalue="Application.InterfaceMain" />
-        <item itemvalue="Application.animalMain" />
-        <item itemvalue="Application.AbstractAnimalMain" />
+        <item itemvalue="Application.PayMain2" />
+        <item itemvalue="Application.PayMain1" />
+        <item itemvalue="Application.PayMain0" />
+        <item itemvalue="Application.SenderMain" />
+        <item itemvalue="Application.CarMain1" />
       </list>
     </recent_temporary>
   </component>
