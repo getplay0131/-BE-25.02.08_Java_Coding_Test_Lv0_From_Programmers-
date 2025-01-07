@@ -9,8 +9,9 @@ public abstract class Student_imp1 {
     private String name; // 이름
     private int grade; // 학년
     private int semesterInfo; // 학기 정보
-    private Score_imp1[] scores; // 성적정보
+    private Score_imp1[] scoreArray; // 성적정보
     private String admissionDate; // 입학일자 정보
+    private int arrayValueCount = 0;
     private static int createdYears; // 생성된 연도 저장 변수
     private static int currentNumber; // 학번 생성용 카운터
     private static int currentYears; // 현재 연도 변수
@@ -26,6 +27,8 @@ public abstract class Student_imp1 {
             this.grade = grade;
             this.semesterInfo = semesterInfo;
             this.admissionDate = admissionDate;
+            this.scoreArray = new Score_imp1[5];
+            createStudentId(admissionDate);
         }
     }
 //    method
@@ -56,12 +59,12 @@ public abstract class Student_imp1 {
         return studentIds;
     }
 
-    public String getAdmossionDate() {
+    public String getAdmissionDate() {
         return admissionDate;
     }
 
     public Score_imp1[] getScores() {
-        return scores;
+        return scoreArray;
     }
 
     public static int getCreatedYears() {
@@ -130,9 +133,22 @@ public abstract class Student_imp1 {
         }
     }
 
+    public void setScores(Score_imp1 scores) {
+        if (arrayValueCount >= 4) {
+            System.out.println("성적 배열에 최대 한도의 도달하여 추가가 불가합니다.");
+            return;
+        }
+        for (int i = 0; i < scoreArray.length; i++) {
+            if (scores != null && scoreArray[i] == null) {
+           scoreArray[i] =scores;
+           arrayValueCount++;
+            }
+        }
+    }
+
     //     --------------------------------------------------------------
 //    학번 생성
-    public static String createStudentNumber(String admissionDate) {
+    public static String createStudentId(String admissionDate) {
 // 1. 입학일자에서 연도 추출
         String years = extractYear(admissionDate);
         if (years != null) {
@@ -147,13 +163,14 @@ public abstract class Student_imp1 {
         // 3. 아니면 currentNumber 증가
             currentNumber++;
         }
+        // 4. 연도 + 일련번호(3자리) 조합하여 반환
+            System.out.println("학생 ID : " + years + String.format("%03d",currentNumber));
         return years + String.format("%03d",currentNumber);
 
         }else {
             System.out.println("학번 생성에 실패하였습니다.");
             return null;
         }
-        // 4. 연도 + 일련번호(3자리) 조합하여 반환
     }
 
 //    admissionDate에서 연도를 추출하는 메서드
@@ -173,12 +190,14 @@ public abstract class Student_imp1 {
         System.out.println("학생 이름 : " + getName());
         System.out.println("학생 학년 : " + getGrade());
         System.out.println("학생 학기 정보 : " + getSemesterInfo());
+        System.out.println("학생 입학 일자 : " + getAdmissionDate());
     }
 
     //  - 평균 계산 메서드(추상메서드)
-    public abstract void calculateAverage(Score_imp1 score);
+    public abstract void calculateAverage(Score_imp1[] score);
 
-//- 주의사항:
+
+//- 주의사항
 //  - 학번은 static 변수로 자동 생성 구현
 //  - 모든 필드는 private으로 선언
 }

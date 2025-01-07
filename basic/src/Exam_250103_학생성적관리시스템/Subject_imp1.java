@@ -20,9 +20,10 @@ public class Subject_imp1 {
         if (subjectName != null && !subjectName.isEmpty()) {
             if (subjectGrade >= 1 && subjectGrade <= 3) {
                 this.subjectName = subjectName;
-                this.subjectCodes = subjectsCodes();
+                this.subjectCodes = subjectCodes;
                 this.subjectGrade = subjectGrade;
                 this.isRequiredSubject = isRequiredSubject;
+                subjectsCodes();
             } else {
                 System.out.println("유효한 범위가 아닙니다.");
             }
@@ -90,6 +91,12 @@ public class Subject_imp1 {
         return subjectIDs;
     }
 
+    public void printScore(){
+        System.out.println("과목 이름 : " + getSubjectName());
+        System.out.println("과목 등급 : " + getSubjectScore());
+        System.out.println("과목 필수 과목 여부 : " + getIsRequiredSubject());
+        System.out.println("과목 코드 : " + getSubjectCodes());
+    }
 
     // ❗ 메서드 재검토 필요
     // - 현재: 배열 기반 코드 관리
