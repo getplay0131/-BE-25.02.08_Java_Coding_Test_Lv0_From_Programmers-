@@ -3,7 +3,7 @@ package Exam_250103_학생성적관리시스템;
 public class GradeManagementSystem {
     // ❗ 필드 구성
     // - 최대 학생 수: 배열 크기 제한을 위한 상수
-    private int MAX_STUDENTS = 10;
+    private static final int MAX_STUDENTS = 10;
     // - 학생 배열: 전체 학생 관리를 위해 필요
     private Student_imp1[] studentsArray = new Student_imp1[MAX_STUDENTS];
     // - 현재 등록된 학생 수: 배열 관리를 위한 카운터
@@ -64,8 +64,8 @@ public class GradeManagementSystem {
     public void removeStudent(String studentId) {
         // ✓ 구현 단계:
         boolean taskCheck = false;
-        if (studentId == null || studentId.isEmpty() || currentStudentCounter <= 0) {
-            System.out.println("입력값이 유효하지 않거나, 등록된 학생이 없습니다.");
+        if (!validateStudent(studentId) || currentStudentCounter <= 0) {
+            System.out.println("등록된 학생이 없습니다.");
             return;
         }
         // 1. 학번으로 학생 찾기
@@ -74,10 +74,7 @@ public class GradeManagementSystem {
                 // 2. 해당 학생 배열에서 제거
                 studentsArray[i] = null;
                 // 3. 뒤의 요소들을 앞으로 이동
-                for (int j = i; j < studentsArray.length - 1; j++) {
-                    studentsArray[j] = studentsArray[j + 1];
-                }
-                studentsArray[studentsArray.length - 1] = null;
+                compactArray(i, studentsArray);
                 // 4. 카운터 감소
                 currentStudentCounter--;
                 taskCheck = true;
@@ -96,10 +93,7 @@ public class GradeManagementSystem {
     public void addScore(String studentId, Subject_imp1 subjects, int score, int semester) {
         // 과목과 점수 유효성 검증
         boolean taskCheck = false;
-        if ((studentId == null || studentId.isEmpty() || currentStudentCounter <= 0) || subjects == null || (score < 0 || score > 100) || (semester <= 0 || semester > 4)) {
-            System.out.println("입력값이 유효하지 않습니다.");
-            return;
-        }
+        validateStudent(studentId, subjects, score, semester);
 
         // ✓ 구현 단계:
         // 1. 학생 찾기
@@ -107,7 +101,7 @@ public class GradeManagementSystem {
         targetStudent = findStudent(studentId);
 
         if (targetStudent == null) {
-            System.out.println("해당 학번을 가진 학생 검색에 실패하였습니다.");
+            nullCheck(targetStudent);
             return;
         }
 
@@ -143,10 +137,8 @@ public class GradeManagementSystem {
     public void updateScore(String studentId, Subject_imp1 subjects, int semester, int newScore) {
         boolean taskCheck = false;
         // 새로운 점수 유효성 검증
-        if ((studentId == null || studentId.isEmpty() || subjects == null || (semester <= 0 || semester > 4) || (newScore < 0 || newScore > 100))) {
-            System.out.println("유효하지 않은 입력값입니다.");
-            return;
-        }
+        validateStudent(studentId, subjects, newScore, semester);
+
 
         // ✓ 구현 단계:
         // 1. 학생과 과목 찾기
@@ -154,7 +146,7 @@ public class GradeManagementSystem {
         targetStudent = findStudent(studentId);
 
         if (targetStudent == null) {
-            System.out.println("해당 학번을 가진 학생 검색에 실패하였습니다.");
+            nullCheck(targetStudent);
             return;
         }
 
@@ -171,7 +163,7 @@ public class GradeManagementSystem {
         }
 
         if (targetScore == null) {
-            System.out.println("해당 성적 검색에 실패하였습니다.");
+            nullCheck(targetScore);
             return;
         }
 
@@ -185,8 +177,7 @@ public class GradeManagementSystem {
     // 3-1. 학생 검색
     public Student_imp1 findStudent(String studentId) {
         // ✓ 구현 단계:
-        if (studentId == null || studentId.isEmpty()) {
-            System.out.println("입력 값이 유효하지 않습니다.");
+        if (!validateStudent(studentId)) {
             return null;
         }
         // 1. 배열 순회하며 학번 비교
@@ -209,7 +200,7 @@ public class GradeManagementSystem {
         targetStudent = findStudent(studentId);
 
         if (targetStudent == null) {
-            System.out.println("해당 학번을 가진 학생 검색에 실패하였습니다.");
+            nullCheck(targetStudent);
             return;
         }
 
@@ -247,15 +238,10 @@ public class GradeManagementSystem {
         // 1. 학년별로 학생 그룹화
         int grade1Counter = 0, grade2Counter = 0, grade3Counter = 0, grade4Counter = 0;
         for (Student_imp1 student : studentsArray) {
-            if (student != null) {
-                switch (student.getGrade()){
-                    case 1 -> grade1Counter++;
-                    case 2 -> grade2Counter++;
-                    case 3 -> grade3Counter++;
-                    case 4 -> grade4Counter++;
-                    default ->  System.out.println("잘못된 학년 정보입니다." + student.getGrade());
-                }
-            }
+            grade1Counter = gradeStatisticsStep1(student.getGrade(),grade1Counter, student);
+            grade2Counter = gradeStatisticsStep1(student.getGrade(),grade2Counter, student);
+            grade3Counter = gradeStatisticsStep1(student.getGrade(),grade3Counter, student);
+            grade4Counter = gradeStatisticsStep1(student.getGrade(),grade4Counter, student);
         }
         Student_imp1[] grade1 = new Student_imp1[grade1Counter];
         Student_imp1[] grade2 = new Student_imp1[grade2Counter];
@@ -265,12 +251,12 @@ public class GradeManagementSystem {
         int idx1 = 0, idx2 = 0, idx3 = 0, idx4 = 0;
         for (Student_imp1 student : studentsArray) {
             if (student != null) {
-                switch (student.getGrade()){
+                switch (student.getGrade()) {
                     case 1 -> grade1[idx1++] = student;
                     case 2 -> grade2[idx2++] = student;
                     case 3 -> grade3[idx3++] = student;
                     case 4 -> grade4[idx4++] = student;
-                    default ->  System.out.println("잘못된 학년 정보입니다." + student.getGrade());
+                    default -> System.out.println("잘못된 학년 정보입니다." + student.getGrade());
                 }
             }
         }
@@ -295,20 +281,19 @@ public class GradeManagementSystem {
 //                }
 //            }
 
-            // 2. 각 학년의 평균 계산
-            int grade1Ave = calculateGradeAverage(grade1);
-            int grade2Ave = calculateGradeAverage(grade2);
-            int grade3Ave = calculateGradeAverage(grade3);
-            int grade4Ave = calculateGradeAverage(grade4);
+        // 2. 각 학년의 평균 계산
+        int grade1Ave = calculateGradeAverage(grade1);
+        int grade2Ave = calculateGradeAverage(grade2);
+        int grade3Ave = calculateGradeAverage(grade3);
+        int grade4Ave = calculateGradeAverage(grade4);
 
-            // 3. 결과 출력
-            System.out.println("=== 학년별 평균 성적 ===");
-            System.out.println("1학년 평균 점수 : " + grade1Ave + "점");
-            System.out.println("2학년 평균 점수 : " + grade2Ave + "점");
-            System.out.println("3학년 평균 점수 : " + grade3Ave + "점");
-            System.out.println("4학년 평균 점수 : " + grade4Ave + "점");
-        }
-
+        // 3. 결과 출력
+        System.out.println("=== 학년별 평균 성적 ===");
+        System.out.println("1학년 평균 점수 : " + grade1Ave + "점");
+        System.out.println("2학년 평균 점수 : " + grade2Ave + "점");
+        System.out.println("3학년 평균 점수 : " + grade3Ave + "점");
+        System.out.println("4학년 평균 점수 : " + grade4Ave + "점");
+    }
 
 
     // 4-2. 장학금 대상자 조회
@@ -321,11 +306,11 @@ public class GradeManagementSystem {
             if (student != null) {
                 if (student instanceof RegularStudent_imp1 regularStudent) {
                     if (regularStudent.getAveScore() >= 90) {
-                    regularsCounter++;
+                        regularsCounter++;
                     }
                 } else if (student instanceof TransferStudent_imp1 transferStudent) {
                     if (transferStudent.getAveScore() >= 95) {
-                    transfersCounter++;
+                        transfersCounter++;
                     }
                 }
             }
@@ -339,18 +324,18 @@ public class GradeManagementSystem {
         int idx1 = 0, idx2 = 0;
         for (Student_imp1 student : studentsArray) {
             if (student != null) {
-        // 2. 학생 타입별로 기준 적용
+                // 2. 학생 타입별로 기준 적용
                 if (student instanceof RegularStudent_imp1 regularStudent) {
                     if (regularStudent.getAveScore() >= 90) {
                         System.out.println(regularStudent.getName() + "님은 장학금 대상자 입니다.");
-                            regulars[idx1++] = student;
+                        regulars[idx1++] = student;
                     } else {
                         System.out.println(regularStudent.getName() + "님은 장학금 대상자가 아닙니다.");
                     }
                 } else if (student instanceof TransferStudent_imp1 transferStudent) {
                     if (transferStudent.getAveScore() >= 95) {
                         System.out.println(transferStudent.getName() + "님은 장학금 대상자 입니다.");
-                            transfers[idx2++] = student;
+                        transfers[idx2++] = student;
                     } else {
                         System.out.println(transferStudent.getName() + "님은 장학금 대상자가 아닙니다.");
                     }
@@ -359,41 +344,84 @@ public class GradeManagementSystem {
         }
 
         // 3. 대상자 목록 출력
-                    System.out.println("===== 장학금 대상자 목록 (일반) =====");
-            for (Student_imp1 regular : regulars) {
-                if (regular != null) {
-                    System.out.println("이름 : " + regular.getName() + "님");
-                }
+        System.out.println("===== 장학금 대상자 목록 (일반) =====");
+        for (Student_imp1 regular : regulars) {
+            if (regular != null) {
+                System.out.println("이름 : " + regular.getName() + "님");
             }
-                    System.out.println("----------------");
+        }
+        System.out.println("----------------");
 
         System.out.println("===== 장학금 대상자 목록 (편입생) =====");
         for (Student_imp1 transfer : transfers) {
             if (transfer != null) {
                 System.out.println("이름 : " + transfer.getName() + "님");
             }
-                System.out.println("----------------");
+            System.out.println("----------------");
         }
     }
 
     /* 유틸리티 메서드 */
 
-    // 배열 관리
-    private int findEmptySpot() {
-        // 배열에서 빈 자리 찾기
+    private void nullCheck(Object object) {
+        if (object == null) {
+            if (object instanceof Student_imp1) {
+                System.out.println("해당 학번을 가진 학생 검색에 실패하였습니다.");
+            } else if (object instanceof Score_imp1) {
+                System.out.println("해당 성적 검색에 실패하였습니다.");
+            }
+        }
     }
 
-    private void compactArray() {
+    private void compactArray(int index, Object[] arrays) {
         // 삭제된 자리 처리하여 배열 정리
+        for (int j = index; j < arrays.length - 1; j++) {
+            arrays[j] = arrays[j + 1];
+        }
+        arrays[arrays.length - 1] = null;
     }
 
     // 데이터 검증
-    private boolean validateStudent(/* 학생 정보 */) {
+    private boolean validateStudent(String studentId) {
         // 학생 정보 유효성 검사
+        if (studentId == null || studentId.isEmpty()) {
+            System.out.println("입력 값이 유효하지 않습니다.");
+            return false;
+        }
+        return true;
     }
 
-    private boolean validateScore(int score) {
-        // 점수 범위 검사 (0-100)
+    private boolean validateStudent(String studentId, Subject_imp1 subjects, int score, int semester) {
+        // 학생 정보 유효성 검사
+        if ((!validateStudent(studentId) || currentStudentCounter <= 0) || subjects == null || (score < 0 || score > 100) || (semester <= 0 || semester > 4)) {
+            System.out.println("입력값이 유효하지 않습니다.");
+            return false;
+        }
+        return true;
+    }
+
+    private int gradeStatisticsStep1(int grade, int counter, Object object) {
+        int grade1Counter = 0, grade2Counter = 0, grade3Counter = 0, grade4Counter = 0;
+        if (object != null) {
+//            switch (grade) {
+//                case 1 -> grade1Counter++;
+//                case 2 -> grade2Counter++;
+//                case 3 -> grade3Counter++;
+//                case 4 -> grade4Counter++;
+//                default -> System.out.println("잘못된 학년 정보입니다." + grade);
+//            }
+            switch (grade){
+                case 1,2,3,4 -> {
+                    counter++;
+                    return counter;
+                }
+                default -> {
+                    System.out.println("잘못된 학년 정보입니다." + grade);
+                    return counter;
+                }
+            }
+        }
+        return counter;
     }
 
     private int calculateGradeAverage(Student_imp1[] gradeStudents) {
