@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d37de22-54a5-44ec-8536-54baa4eccec8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2rYOWgk9FMYnloQiEPiFUGAD3i3" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EqualsMainV1.executor": "Run",
+    "Application.EqualsMainV2.executor": "Run",
+    "Application.LangMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObjectMain.executor": "Run",
+    "Application.ObjectPolyExample1.executor": "Run",
+    "Application.ObjectPolyExample2.executor": "Run",
+    "Application.Progress_250113.LangMain.executor": "Run",
+    "Application.RectangelMain.executor": "Run",
+    "Application.ToStringMain1.executor": "Run",
+    "Application.ToStringMain2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_250113.object.tostring" />
+      <recent name="Progress_250113.object.poly" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RectangelMain">
+    <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.equals.EqualsMainV1" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Progress_250113.object.equals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.equals.EqualsMainV2" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Progress_250113.object.equals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.test.RectangelMain" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Progress_250113.object.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.tostring.ToStringMain1" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Progress_250113.object.tostring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.tostring.ToStringMain2" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Progress_250113.object.tostring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RectangelMain" />
+        <item itemvalue="Application.EqualsMainV2" />
+        <item itemvalue="Application.EqualsMainV1" />
+        <item itemvalue="Application.ToStringMain2" />
+        <item itemvalue="Application.ToStringMain1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d37de22-54a5-44ec-8536-54baa4eccec8" name="Changes" comment="" />
+      <created>1736732574607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736732574607</updated>
+    </task>
+    <servers />
+  </component>
+</project>
