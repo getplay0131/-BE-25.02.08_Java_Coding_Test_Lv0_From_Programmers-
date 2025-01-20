@@ -30,33 +30,45 @@
   "keyToString": {
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.ImmutableMyDateMain.executor": "Run",
+    "Application.ImutableMain.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MemberMainV1.executor": "Run",
+    "Application.MemberMainV2.executor": "Run",
+    "Application.MutableMain.executor": "Run",
+    "Application.MyDateMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
+    "Application.Primitivemain.executor": "Run",
     "Application.Progress_250113.LangMain.executor": "Run",
     "Application.RectangelMain.executor": "Run",
+    "Application.RefMain1_1.executor": "Run",
+    "Application.RefMain1_2.executor": "Run",
+    "Application.RefMain1_3.executor": "Run",
+    "Application.RefMain1_4.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/코딩 테스트"
+    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_250120" />
       <recent name="Progress_250113.object.tostring" />
       <recent name="Progress_250113.object.poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RectangelMain">
-    <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.equals.EqualsMainV1" />
+  <component name="RunManager" selected="Application.ImmutableMyDateMain">
+    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250120.ImmutableMyDateMain" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250113.object.equals.*" />
+          <option name="PATTERN" value="Progress_250120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.equals.EqualsMainV2" />
+    <configuration name="ImutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250120.ImutableMain" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250113.object.equals.*" />
+          <option name="PATTERN" value="Progress_250120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.test.RectangelMain" />
+    <configuration name="MemberMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250120.MemberMainV2" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250113.object.test.*" />
+          <option name="PATTERN" value="Progress_250120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.tostring.ToStringMain1" />
+    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250120.MutableMain" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250113.object.tostring.*" />
+          <option name="PATTERN" value="Progress_250120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250113.object.tostring.ToStringMain2" />
+    <configuration name="MyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250120.MyDateMain" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250113.object.tostring.*" />
+          <option name="PATTERN" value="Progress_250120.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RectangelMain" />
-        <item itemvalue="Application.EqualsMainV2" />
-        <item itemvalue="Application.EqualsMainV1" />
-        <item itemvalue="Application.ToStringMain2" />
-        <item itemvalue="Application.ToStringMain1" />
+        <item itemvalue="Application.ImmutableMyDateMain" />
+        <item itemvalue="Application.MyDateMain" />
+        <item itemvalue="Application.ImutableMain" />
+        <item itemvalue="Application.MutableMain" />
+        <item itemvalue="Application.MemberMainV2" />
       </list>
     </recent_temporary>
   </component>
