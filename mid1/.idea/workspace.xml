@@ -28,14 +28,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CharArrayMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMyDateMain.executor": "Run",
     "Application.ImutableMain.executor": "Run",
     "Application.LangMain.executor": "Run",
+    "Application.LoopStringBuilderMain.executor": "Run",
+    "Application.LoopStringMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
+    "Application.MethodChainingMain1.executor": "Run",
+    "Application.MethodChainingMain2.executor": "Run",
+    "Application.MethodChainingMain3.executor": "Run",
     "Application.MutableMain.executor": "Run",
     "Application.MyDateMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
@@ -48,6 +54,33 @@
     "Application.RefMain1_2.executor": "Run",
     "Application.RefMain1_3.executor": "Run",
     "Application.RefMain1_4.executor": "Run",
+    "Application.StringBasicMain.executor": "Run",
+    "Application.StringBuilderMain1_1.executor": "Run",
+    "Application.StringBuilderMain1_2.executor": "Run",
+    "Application.StringChangeMain1.executor": "Run",
+    "Application.StringChangeMain2.executor": "Run",
+    "Application.StringComparisonMain.executor": "Run",
+    "Application.StringConcatMain.executor": "Run",
+    "Application.StringEqualsMain1.executor": "Run",
+    "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Debug",
+    "Application.StringInfoMain.executor": "Run",
+    "Application.StringSearchMain.executor": "Run",
+    "Application.StringSplidJoinMain.executor": "Run",
+    "Application.StringUtilMain1.executor": "Run",
+    "Application.StringUtilMain2.executor": "Run",
+    "Application.TestString1.executor": "Run",
+    "Application.TestString10.executor": "Run",
+    "Application.TestString11.executor": "Run",
+    "Application.TestString2.executor": "Run",
+    "Application.TestString3.executor": "Run",
+    "Application.TestString4.executor": "Run",
+    "Application.TestString5.executor": "Run",
+    "Application.TestString6.executor": "Run",
+    "Application.TestString7.executor": "Run",
+    "Application.TestString8.executor": "Run",
+    "Application.TestString9.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,18 +90,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_250121" />
       <recent name="Progress_250120" />
       <recent name="Progress_250113.object.tostring" />
       <recent name="Progress_250113.object.poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableMyDateMain">
-    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250120.ImmutableMyDateMain" />
+  <component name="RunManager" selected="Application.TestString11">
+    <configuration name="TestString10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString10" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250120.*" />
+          <option name="PATTERN" value="Progress_250121.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250120.ImutableMain" />
+    <configuration name="TestString11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString11" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250120.*" />
+          <option name="PATTERN" value="Progress_250121.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250120.MemberMainV2" />
+    <configuration name="TestString7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString7" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250120.*" />
+          <option name="PATTERN" value="Progress_250121.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250120.MutableMain" />
+    <configuration name="TestString8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString8" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250120.*" />
+          <option name="PATTERN" value="Progress_250121.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250120.MyDateMain" />
+    <configuration name="TestString9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString9" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250120.*" />
+          <option name="PATTERN" value="Progress_250121.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImmutableMyDateMain" />
-        <item itemvalue="Application.MyDateMain" />
-        <item itemvalue="Application.ImutableMain" />
-        <item itemvalue="Application.MutableMain" />
-        <item itemvalue="Application.MemberMainV2" />
+        <item itemvalue="Application.TestString11" />
+        <item itemvalue="Application.TestString10" />
+        <item itemvalue="Application.TestString9" />
+        <item itemvalue="Application.TestString8" />
+        <item itemvalue="Application.TestString7" />
       </list>
     </recent_temporary>
   </component>
@@ -148,5 +182,31 @@
       <updated>1736732574607</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Progress_250121/StringImmutable2.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Progress_250121/StringImmutable2.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Progress_250121/StringImmutable2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Progress_250121/StringImmutable2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
