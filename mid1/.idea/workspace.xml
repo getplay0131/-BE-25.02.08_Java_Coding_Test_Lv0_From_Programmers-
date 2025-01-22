@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d37de22-54a5-44ec-8536-54baa4eccec8" name="Changes" comment="" />
+    <list default="true" id="9d37de22-54a5-44ec-8536-54baa4eccec8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Progress_250122/ClassCreateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Progress_250122/ClassCreateMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +21,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2rYOWgk9FMYnloQiEPiFUGAD3i3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AutoboxingMain1.executor": "Run",
+    "Application.AutoboxingMain2.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
+    "Application.ClassCreatemain.executor": "Run",
+    "Application.ClassMetaMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMyDateMain.executor": "Run",
@@ -36,7 +50,11 @@
     "Application.LangMain.executor": "Run",
     "Application.LoopStringBuilderMain.executor": "Run",
     "Application.LoopStringMain.executor": "Run",
+    "Application.LottoGenerator.executor": "Run",
+    "Application.LottoGeneratorMain.executor": "Run",
+    "Application.LottoGeneratorMain1.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MathMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
     "Application.MethodChainingMain1.executor": "Run",
@@ -44,11 +62,16 @@
     "Application.MethodChainingMain3.executor": "Run",
     "Application.MutableMain.executor": "Run",
     "Application.MyDateMain.executor": "Run",
+    "Application.MyIntegerMethodMain0.executor": "Run",
+    "Application.MyIntegerMethodMain1.executor": "Run",
+    "Application.MyIntegerNullMain0.executor": "Run",
+    "Application.MyIntegerNullMain1.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
     "Application.Primitivemain.executor": "Run",
     "Application.Progress_250113.LangMain.executor": "Run",
+    "Application.RandomMain.executor": "Run",
     "Application.RectangelMain.executor": "Run",
     "Application.RefMain1_1.executor": "Run",
     "Application.RefMain1_2.executor": "Run",
@@ -70,6 +93,7 @@
     "Application.StringSplidJoinMain.executor": "Run",
     "Application.StringUtilMain1.executor": "Run",
     "Application.StringUtilMain2.executor": "Run",
+    "Application.SystemMain.executor": "Run",
     "Application.TestString1.executor": "Run",
     "Application.TestString10.executor": "Run",
     "Application.TestString11.executor": "Run",
@@ -83,26 +107,41 @@
     "Application.TestString9.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
+    "Application.WrapperClassMain.executor": "Run",
+    "Application.WrapperTest1.executor": "Run",
+    "Application.WrapperTest2.executor": "Run",
+    "Application.WrapperTest3.executor": "Run",
+    "Application.WrapperTest4.executor": "Run",
+    "Application.WrapperUtilsmain.executor": "Run",
+    "Application.WrapperVsPrimitive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1"
+    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_250122" />
       <recent name="Progress_250121" />
       <recent name="Progress_250120" />
       <recent name="Progress_250113.object.tostring" />
       <recent name="Progress_250113.object.poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestString11">
-    <configuration name="TestString10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString10" />
+  <component name="RunManager" selected="Application.LottoGeneratorMain1">
+    <configuration name="LottoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250122.LottoGenerator" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250121.*" />
+          <option name="PATTERN" value="Progress_250122.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString11" />
+    <configuration name="LottoGeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250122.LottoGeneratorMain" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250121.*" />
+          <option name="PATTERN" value="Progress_250122.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString7" />
+    <configuration name="LottoGeneratorMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250122.LottoGeneratorMain1" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250121.*" />
+          <option name="PATTERN" value="Progress_250122.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString8" />
+    <configuration name="WrapperTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250122.WrapperTest3" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250121.*" />
+          <option name="PATTERN" value="Progress_250122.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250121.TestString9" />
+    <configuration name="WrapperTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250122.WrapperTest4" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250121.*" />
+          <option name="PATTERN" value="Progress_250122.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestString11" />
-        <item itemvalue="Application.TestString10" />
-        <item itemvalue="Application.TestString9" />
-        <item itemvalue="Application.TestString8" />
-        <item itemvalue="Application.TestString7" />
+        <item itemvalue="Application.LottoGeneratorMain1" />
+        <item itemvalue="Application.LottoGeneratorMain" />
+        <item itemvalue="Application.LottoGenerator" />
+        <item itemvalue="Application.WrapperTest4" />
+        <item itemvalue="Application.WrapperTest3" />
       </list>
     </recent_temporary>
   </component>
