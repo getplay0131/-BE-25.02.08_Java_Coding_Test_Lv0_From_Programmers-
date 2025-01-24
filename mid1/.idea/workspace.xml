@@ -38,13 +38,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AuthGradeMain1.executor": "Run",
+    "Application.AuthGradeMain2.executor": "Run",
+    "Application.AuthGradeMain3.executor": "Run",
     "Application.AutoboxingMain1.executor": "Run",
     "Application.AutoboxingMain2.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
     "Application.ClassCreatemain.executor": "Run",
+    "Application.ClassEnumRefMain.executor": "Run",
+    "Application.ClassGradeRefMain1.executor": "Run",
     "Application.ClassMetaMain.executor": "Run",
+    "Application.ClassRefMain.executor": "Run",
+    "Application.EnumEx3_1.executor": "Run",
+    "Application.EnumEx3_2.executor": "Run",
+    "Application.EnumMethodMain.executor": "Debug",
+    "Application.EnumRefMain.executor": "Run",
+    "Application.EnumRefMain3.executor": "Run",
+    "Application.EnumRefMain3_1.executor": "Run",
+    "Application.EnumRefMain3_2.executor": "Run",
+    "Application.EnumRefMain3_3.executor": "Run",
+    "Application.EnumRefMain3_4.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.HttpStatusMain.executor": "Run",
+    "Application.HttpStatusMain2.executor": "Run",
     "Application.ImmutableMyDateMain.executor": "Run",
     "Application.ImutableMain.executor": "Run",
     "Application.LangMain.executor": "Run",
@@ -86,6 +103,11 @@
     "Application.StringConcatMain.executor": "Run",
     "Application.StringEqualsMain1.executor": "Run",
     "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringGradeEx0_1.executor": "Run",
+    "Application.StringGradeEx1_1.executor": "Run",
+    "Application.StringGradeEx1_2.executor": "Run",
+    "Application.StringGradeEx1_3.executor": "Run",
+    "Application.StringGradeEx2_2.executor": "Run",
     "Application.StringImmutable1.executor": "Run",
     "Application.StringImmutable2.executor": "Debug",
     "Application.StringInfoMain.executor": "Run",
@@ -119,7 +141,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1",
+    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1/src/Progress_250124",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -127,21 +149,24 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\[집]자기계발\[집]공부\[집]컴퓨터 공학\[집]웹개발\[집]백엔드\[집][리마인드][자바] 소스 코드\[백] Java\[집][백]인프런 - 김영한의 자바\mid1\src\Progress_250124" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Progress_250124.test.http" />
+      <recent name="Progress_250124.test.ex1" />
+      <recent name="Progress_250124.ref3" />
+      <recent name="Progress_250124" />
       <recent name="Progress_250122" />
-      <recent name="Progress_250121" />
-      <recent name="Progress_250120" />
-      <recent name="Progress_250113.object.tostring" />
-      <recent name="Progress_250113.object.poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LottoGeneratorMain1">
-    <configuration name="LottoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250122.LottoGenerator" />
+  <component name="RunManager" selected="Application.HttpStatusMain2">
+    <configuration name="AuthGradeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.ex1.AuthGradeMain1" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250122.*" />
+          <option name="PATTERN" value="Progress_250124.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LottoGeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250122.LottoGeneratorMain" />
+    <configuration name="AuthGradeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.ex1.AuthGradeMain2" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250122.*" />
+          <option name="PATTERN" value="Progress_250124.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LottoGeneratorMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250122.LottoGeneratorMain1" />
+    <configuration name="AuthGradeMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.ex1.AuthGradeMain3" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250122.*" />
+          <option name="PATTERN" value="Progress_250124.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250122.WrapperTest3" />
+    <configuration name="HttpStatusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.http.HttpStatusMain" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250122.*" />
+          <option name="PATTERN" value="Progress_250124.test.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250122.WrapperTest4" />
+    <configuration name="HttpStatusMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.http.HttpStatusMain2" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250122.*" />
+          <option name="PATTERN" value="Progress_250124.test.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LottoGeneratorMain1" />
-        <item itemvalue="Application.LottoGeneratorMain" />
-        <item itemvalue="Application.LottoGenerator" />
-        <item itemvalue="Application.WrapperTest4" />
-        <item itemvalue="Application.WrapperTest3" />
+        <item itemvalue="Application.HttpStatusMain2" />
+        <item itemvalue="Application.HttpStatusMain" />
+        <item itemvalue="Application.AuthGradeMain3" />
+        <item itemvalue="Application.AuthGradeMain2" />
+        <item itemvalue="Application.AuthGradeMain1" />
       </list>
     </recent_temporary>
   </component>
