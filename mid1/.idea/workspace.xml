@@ -136,6 +136,9 @@
     "Application.WrapperTest4.executor": "Run",
     "Application.WrapperUtilsmain.executor": "Run",
     "Application.WrapperVsPrimitive.executor": "Run",
+    "Application.모스부호_1.executor": "Run",
+    "Application.문자열정렬하기_2.executor": "Run",
+    "Application.합성수찾기.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -153,46 +156,20 @@
       <recent name="F:\[집]자기계발\[집]공부\[집]컴퓨터 공학\[집]웹개발\[집]백엔드\[집][리마인드][자바] 소스 코드\[백] Java\[집][백]인프런 - 김영한의 자바\mid1\src\Progress_250124" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Exam_250125" />
       <recent name="Progress_250124.test.http" />
       <recent name="Progress_250124.test.ex1" />
       <recent name="Progress_250124.ref3" />
       <recent name="Progress_250124" />
-      <recent name="Progress_250122" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpStatusMain2">
-    <configuration name="AuthGradeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.ex1.AuthGradeMain1" />
+  <component name="RunManager" selected="Application.모스부호_1">
+    <configuration name="합성수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250125.합성수찾기" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250124.test.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthGradeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.ex1.AuthGradeMain2" />
-      <module name="mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Progress_250124.test.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthGradeMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.ex1.AuthGradeMain3" />
-      <module name="mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Progress_250124.test.ex1.*" />
+          <option name="PATTERN" value="Exam_250125.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,13 +203,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="모스부호_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250125.모스부호_1" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam_250125.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문자열정렬하기_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250125.문자열정렬하기_2" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam_250125.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.모스부호_1" />
+        <item itemvalue="Application.합성수찾기" />
+        <item itemvalue="Application.문자열정렬하기_2" />
         <item itemvalue="Application.HttpStatusMain2" />
         <item itemvalue="Application.HttpStatusMain" />
-        <item itemvalue="Application.AuthGradeMain3" />
-        <item itemvalue="Application.AuthGradeMain2" />
-        <item itemvalue="Application.AuthGradeMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +272,56 @@
           <url>file://$PROJECT_DIR$/src/Progress_250121/StringImmutable2.java</url>
           <line>7</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
