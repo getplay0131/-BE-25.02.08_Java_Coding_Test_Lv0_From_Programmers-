@@ -43,6 +43,7 @@
     "Application.AuthGradeMain3.executor": "Run",
     "Application.AutoboxingMain1.executor": "Run",
     "Application.AutoboxingMain2.executor": "Run",
+    "Application.A로B만들기.executor": "Debug",
     "Application.CharArrayMain.executor": "Run",
     "Application.ClassCreatemain.executor": "Run",
     "Application.ClassEnumRefMain.executor": "Run",
@@ -138,6 +139,7 @@
     "Application.WrapperVsPrimitive.executor": "Run",
     "Application.모스부호_1.executor": "Run",
     "Application.문자열정렬하기_2.executor": "Run",
+    "Application.중복된문자제거.executor": "Run",
     "Application.합성수찾기.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -163,7 +165,7 @@
       <recent name="Progress_250124" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.모스부호_1">
+  <component name="RunManager" selected="Application.중복된문자제거">
     <configuration name="합성수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exam_250125.합성수찾기" />
       <module name="mid1" />
@@ -177,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpStatusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.http.HttpStatusMain" />
+    <configuration name="중복된문자제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250126.중복된문자제거" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250124.test.http.*" />
+          <option name="PATTERN" value="Exam_250126.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpStatusMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250124.test.http.HttpStatusMain2" />
+    <configuration name="A로B만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250126.A로B만들기" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250124.test.http.*" />
+          <option name="PATTERN" value="Exam_250126.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.중복된문자제거" />
+        <item itemvalue="Application.A로B만들기" />
         <item itemvalue="Application.모스부호_1" />
         <item itemvalue="Application.합성수찾기" />
         <item itemvalue="Application.문자열정렬하기_2" />
-        <item itemvalue="Application.HttpStatusMain2" />
-        <item itemvalue="Application.HttpStatusMain" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +324,66 @@
           <url>file://$PROJECT_DIR$/src/Exam_250125/합성수찾기.java</url>
           <line>31</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250126/A로B만들기.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
