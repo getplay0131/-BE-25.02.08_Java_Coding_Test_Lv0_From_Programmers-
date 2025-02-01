@@ -146,7 +146,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/mid1/src/Progress_250124",
+    "last_opened_file_path": "F:/[집]자기계발/[집]공부/[집]컴퓨터 공학/[집]웹개발/[집]백엔드/[집][리마인드][자바] 소스 코드/[백] Java/[집][백]인프런 - 김영한의 자바/코딩 테스트",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -165,26 +165,13 @@
       <recent name="Progress_250124" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.중복된문자제거">
+  <component name="RunManager" selected="Application.A로B만들기">
     <configuration name="합성수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exam_250125.합성수찾기" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exam_250125.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="중복된문자제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam_250126.중복된문자제거" />
-      <module name="mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exam_250126.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,9 +218,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="중복된문자제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250126.중복된문자제거" />
+      <module name="mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam_250126.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.중복된문자제거" />
         <item itemvalue="Application.A로B만들기" />
         <item itemvalue="Application.모스부호_1" />
         <item itemvalue="Application.합성수찾기" />
