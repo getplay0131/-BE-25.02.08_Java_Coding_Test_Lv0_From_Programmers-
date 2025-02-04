@@ -13,12 +13,11 @@ public class 운동회_달리기_등수_클로드제작 {
         double [] records = {12.5, 11.0, 11.0, 15.2, 13.8};
         int [] answer = new int[records.length];
         for (int i = 0; i < records.length; i++) {
-            answer[i] = compareValues(records, i);
             System.out.println(answer[i]);
         }
     }
 
-    public static int compareValues(double[] arr, int pos){
+    public static void compareValues(double[] arr, int[] arrs, int idx){
         int grade = 0;
         for (int i = 0; i < arr.length; i++) {
             int count = 1;
@@ -27,8 +26,7 @@ public class 운동회_달리기_등수_클로드제작 {
                     count++;
                 }
             }
-                grade = count;
+                arrs[idx] = count;
         }
-        return grade;
     }
 }
