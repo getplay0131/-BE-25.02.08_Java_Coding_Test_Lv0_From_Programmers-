@@ -105,6 +105,8 @@
     "Application.PeriodMain.executor": "Run",
     "Application.Primitivemain.executor": "Run",
     "Application.Progress_250113.LangMain.executor": "Run",
+    "Application.Progress_Exam_250207.TestLoopPlus.executor": "Run",
+    "Application.Progress_Exam_250207.TestPlus.executor": "Run",
     "Application.RandomMain.executor": "Run",
     "Application.RectangelMain.executor": "Run",
     "Application.RefMain1_1.executor": "Run",
@@ -133,6 +135,7 @@
     "Application.StringUtilMain1.executor": "Run",
     "Application.StringUtilMain2.executor": "Run",
     "Application.SystemMain.executor": "Run",
+    "Application.TestBetween.executor": "Run",
     "Application.TestLoopPlus.executor": "Run",
     "Application.TestPlus.executor": "Run",
     "Application.TestString1.executor": "Run",
@@ -185,13 +188,13 @@
       <recent name="Progress_250124.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLoopPlus">
-    <configuration name="ChangeTimeWithMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250205.time.ChangeTimeWithMain" />
+  <component name="RunManager" selected="Application.TestBetween">
+    <configuration name="Progress_Exam_250207.TestLoopPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_Exam_250207.TestLoopPlus" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250205.time.*" />
+          <option name="PATTERN" value="Progress_Exam_250207.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormattingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250205.time.FormattingMain1" />
+    <configuration name="Progress_Exam_250207.TestPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_Exam_250207.TestPlus" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250205.time.*" />
+          <option name="PATTERN" value="Progress_Exam_250207.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormattingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250205.time.FormattingMain2" />
+    <configuration name="TestBetween" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Progress_Exam_250207.TestBetween" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250205.time.*" />
+          <option name="PATTERN" value="Progress_Exam_250207.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBetween" />
+        <item itemvalue="Application.Progress_Exam_250207.TestLoopPlus" />
+        <item itemvalue="Application.Progress_Exam_250207.TestPlus" />
         <item itemvalue="Application.TestLoopPlus" />
         <item itemvalue="Application.TestPlus" />
-        <item itemvalue="Application.FormattingMain2" />
-        <item itemvalue="Application.FormattingMain1" />
-        <item itemvalue="Application.ChangeTimeWithMain" />
       </list>
     </recent_temporary>
   </component>

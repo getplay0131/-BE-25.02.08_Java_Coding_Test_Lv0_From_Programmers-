@@ -10,7 +10,7 @@ public class TestLoopPlus {
         String msg = "날짜";
         for (int i = 0; i < 5; i++) {
             LocalDate plusDays = date.plus(2*i,ChronoUnit.WEEKS);
-            System.out.println(msg + " " +  (i+1) +": " + plusDays(14));
+            System.out.println(msg + " " +  (i+1) +": " + plusDays);
         }
 
     }
