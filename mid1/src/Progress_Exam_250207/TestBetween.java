@@ -16,5 +16,6 @@ public class TestBetween {
 //        날짜사이의 간격을 일로 구하는것을 헷갈려함
         long betweened = ChronoUnit.DAYS.between(startDate, endDate);
         System.out.println("디데이 : " + betweened + "일");
+
     }
 }

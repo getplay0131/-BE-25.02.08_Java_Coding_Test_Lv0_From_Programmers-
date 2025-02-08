@@ -163,6 +163,8 @@
     "Application.모스부호_1.executor": "Run",
     "Application.문자열정렬하기_2.executor": "Run",
     "Application.중복된문자제거.executor": "Run",
+    "Application.프로그래머스_가까운수.executor": "Run",
+    "Application.프로그래머스_숨어있는숫자의덧셈_2.executor": "Run",
     "Application.합성수찾기.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -188,7 +190,7 @@
       <recent name="Progress_250124.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBetween">
+  <component name="RunManager" selected="Application.프로그래머스_가까운수">
     <configuration name="Progress_Exam_250207.TestLoopPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Progress_Exam_250207.TestLoopPlus" />
       <module name="mid1" />
@@ -228,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLoopPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250205.time.test.TestLoopPlus" />
+    <configuration name="프로그래머스_가까운수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250208.프로그래머스_가까운수" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250205.time.test.*" />
+          <option name="PATTERN" value="Exam_250208.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Progress_250205.time.test.TestPlus" />
+    <configuration name="프로그래머스_숨어있는숫자의덧셈_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam_250208.프로그래머스_숨어있는숫자의덧셈_2" />
       <module name="mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Progress_250205.time.test.*" />
+          <option name="PATTERN" value="Exam_250208.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.프로그래머스_가까운수" />
+        <item itemvalue="Application.프로그래머스_숨어있는숫자의덧셈_2" />
         <item itemvalue="Application.TestBetween" />
         <item itemvalue="Application.Progress_Exam_250207.TestLoopPlus" />
         <item itemvalue="Application.Progress_Exam_250207.TestPlus" />
-        <item itemvalue="Application.TestLoopPlus" />
-        <item itemvalue="Application.TestPlus" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +410,83 @@
           <line>44</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_숨어있는숫자의덧셈_2.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_가까운수.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_가까운수.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_가까운수.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_가까운수.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam_250208/프로그래머스_가까운수.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="43" />
+        </breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByClassRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
 </project>
